@@ -116,21 +116,201 @@
         </utente_professore>
     </appello>
 
-    <circolare></circolare>
+    <circolare>
 
-    <colloqui></colloqui>
+    </circolare>
 
-    <consegne></consegne>
+    <colloqui>
+        <classi>
+            <classe id="5^DINF">
+                <utente_genitore>
+                    <nome>Silvia</nome>
+                    <cognome>Trinari</cognome>
+                    <figlio>
+                        <nome>Lucrezia</nome>
+                        <cognome>Rainoldi</cognome>
+                        <classe>5^DINF</classe>
+                    </figlio>
+                    <materia_richiesta>
+                        <professore>
+                            <nome>Paolo</nome>
+                            <cognome>Testi</cognome>
+                            <link>
+                                <youtube class="com"></youtube>
+                            </link>
+                            <materia>Sistemi e Reti</materia>
+                        </professore>
+                    </materia_richiesta>
+                </utente_genitore>
+            </classe>
+            <classe id="4^CINF">
+                        
+            </classe>
+        </classi>
+    </colloqui>
 
-    <giustifiche></giustifiche>
+    <consegne>
+        <creazione>
+            <descrizione>Creare un file .XML dal lavoro di gruppo</descrizione>
+            <data_inizio>11/01/2024</data_inizio>
+            <data_fine>18/01/2024</data_fine>
+            <n_max_file>5</n_max_file>
+            <peso_max_file>20MG</peso_max_file>
+        </creazione>
+        <classi>
+            <classe id="5^DINF">
+                <alunno>
+                    <utente_studente>
+                        <nome>Lucrezia</nome>
+                        <cognome>Rainoldi</cognome>
+                        <id_matricola>15491</id_matricola>
+                        <consegne>effettuate</consegne>
+                    </utente_studente>
+                </alunno>
+                <alunno>
+                    <utente_studente>
+                        <nome>Lorenzo</nome>
+                        <cognome>Pula</cognome>
+                        <id_matricola>15481</id_matricola>
+                        <consegne>effettuate</consegne>
+                    </utente_studente>
+                </alunno>
+                <alunno>
+                    <utente_studente>
+                        <nome>Paolo</nome>
+                        <cognome>Cicioni</cognome>
+                        <id_matricola>15391</id_matricola>
+                        <consegne>effettuate</consegne>
+                    </utente_studente>
+                </alunno>
+                <alunno>
+                    <utente_studente>
+                        <nome>Leonardo</nome>
+                        <cognome>Maiorca</cognome>
+                        <id_matricola>15492</id_matricola>
+                        <consegne>errore</consegne>
+                    </utente_studente>
+                </alunno>
+                <alunno>
+                    <utente_studente>
+                        <nome>Ruggero</nome>
+                        <cognome>Falaschi</cognome>
+                        <id_matricola>12491</id_matricola>
+                        <consegne>effettuate</consegne>
+                    </utente_studente>
+                </alunno>
+            </alunni>
+            </classe>
+            <classe id="4^CINF">
+                    
+            </classe>
+        </classi>
+    </consegne>
 
-    <compiti></compiti>
+    <giustifiche>
 
-    <voti></voti>
+    </giustifiche>
 
-    <media></media>
+    <compiti>
+        <classi>
+            <classe id="5^DINF">
+                <descrizione>Esercizio su Cisco Packet Tracer sulle VLAN</descrizione>
+                <data_inserimento>10/01/2024</data_inserimento>
+                <data_per_finire>12/01/2024</data_per_finire>
+            </classe>
+            <classe id="4^CINF">
+                <descrizione>Esercizio su Cisco Packet Tracer: ricreare la prorpia rete casalinga</descrizione>
+                <data_inserimento>8/01/2024</data_inserimento>
+                <data_per_finire>22/01/2024</data_per_finire>
+            </classe>
+        </classi>
+    </compiti>
 
-    <scrutini></scrutini>
+    <voti>
+        <voto>
+            <classi>
+                <classe id="5^DINF">
+                    <alunni id="5">
+                        <alunno>
+                            <utente_studente>
+                                <nome>Lucrezia</nome>
+                                <cognome>Rainoldi</cognome>
+                                <id_matricola>15491</id_matricola>
+                                <voto_prof>7</voto_prof>
+                                <data_inserimento>16/01/2024</data_inserimento>
+                            </utente_studente>
+                        </alunno>
+                        <alunno>
+                            <utente_studente>
+                                <nome>Lorenzo</nome>
+                                <cognome>Pula</cognome>
+                                <id_matricola>15481</id_matricola>
+                                <voto_prof>6</voto_prof>
+                                <data_inserimento>16/01/2024</data_inserimento>
+                            </utente_studente>
+                        </alunno>
+                        <alunno>
+                            <utente_studente>
+                                <nome>Paolo</nome>
+                                <cognome>Cicioni</cognome>
+                                <id_matricola>15391</id_matricola>
+                                <voto_prof>8</voto_prof>
+                                <data_inserimento>18/01/2024</data_inserimento>
+                            </utente_studente>
+                        </alunno>
+                        <alunno>
+                            <utente_studente>
+                                <nome>Leonardo</nome>
+                                <cognome>Maiorca</cognome>
+                                <id_matricola>15492</id_matricola>
+                                <voto_prof>5</voto_prof>
+                                <data_inserimento>16/01/2024</data_inserimento>
+                            </utente_studente>                                
+                        </alunno>
+                        <alunno>
+                            <utente_studente>
+                                <nome>Ruggero</nome>
+                                <cognome>Falaschi</cognome>                                        
+                                <id_matricola>12491</id_matricola>
+                                <voto_prof>6</voto_prof>
+                                <data_inserimento>18/01/2024</data_inserimento>
+                            </utente_studente>
+                        </alunno>
+                    </alunni>
+                </classe>
+                <classe id="4^CINF">
+                    <alunni>
+                        <alunno>
+                            <utente_studente>
+                                <nome>Emma</nome>
+                                <cognome>Speziali</cognome>
+                                <id_matricola>15895</id_matricola>
+                                <voto_prof>7</voto_prof>
+                                <data_inserimento>6/01/2024</data_inserimento>
+                            </utente_studente>
+                        </alunno>
+                        <alunno>
+                            <utente_studente>
+                                <nome>Luca</nome>
+                                <cognome>Rozzo</cognome>
+                                <id_matricola>18459</id_matricola>
+                                <voto_prof>4</voto_prof>
+                                <data_inserimento>16/02/2024</data_inserimento>
+                            </utente_studente>
+                        </alunno>
+                    </alunni>
+                </classe>
+            </classi>
+        </voto>
+    </voti>
+
+    <media>
+        
+    </media>
+
+    <scrutini>
+
+    </scrutini>
     
     
 

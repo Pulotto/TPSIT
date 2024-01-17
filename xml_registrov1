@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<registro_elettronico>
+    <admin>
+        <registrazione>
+            <utente_professore>
+                <nome></nome>
+                <cognome></cognome>
+                <classi>
+                    <classe></classe>
+                    <classe></classe>
+                </classi>
+            </utente_professore>
+            <utente_genitore>
+                <nome></nome>
+                <cognome></cognome>
+                <figlio>
+                    <nome></nome>
+                    <cognome></cognome>
+                    <classe></classe>
+                </figlio>
+            </utente_genitore>
+            <utente_studente>
+                <nome></nome>
+                <cognome></cognome>
+                <classe></classe>
+            </utente_studente>
+        </registrazione>
+        <circolari>
+            <utente_professore>
+               <nome></nome>
+               <cognome></cognome>
+               <classi></classi>
+            </utente_professore>
+
+            <utente_studente>
+                <nome></nome>
+                <cognome></cognome>
+                <id_matricola></id_matricola>
+            </utente_studente>
+
+            <utente_genitore>
+                <nome></nome>
+                <cognome></cognome>
+                <figlio></figlio>
+                <classe></classe>
+            </utente_genitore>
+        </circolari>
+    </admin>
+
+    <docenti>
+        <utente_professore>
+            <nome>Andrea</nome>
+            <cognome>Capobianco</cognome>
+            <classi>
+                <classe id="5^DINF">
+                    <!--id>5^DINF</id-->
+                    <alunni id="5">
+                        <alunno>
+                            <utente_studente>
+                                <nome>Lucrezia</nome>
+                                <cognome>Rainoldi</cognome>
+                                <id_matricola>15491</id_matricola>
+                            </utente_studente>
+                        </alunno>
+                        <alunno>
+                            <utente_studente>
+                                <nome>Lorenzo</nome>
+                                <cognome>Pula</cognome>
+                                <id_matricola>15481</id_matricola>
+                            </utente_studente>
+                        </alunno>
+                        <alunno>
+                            <utente_studente>
+                                <nome>Paolo</nome>
+                                <cognome>Cicioni</cognome>
+                                <id_matricola>15391</id_matricola>
+                            </utente_studente>
+                        </alunno>
+                        <alunno>
+                            <utente_studente>
+                                <nome>Leonardo</nome>
+                                <cognome>Maiorca</cognome>
+                                <id_matricola>15492</id_matricola>
+                            </utente_studente>
+                        </alunno>
+                        <alunno>
+                            <utente_studente>
+                                <nome>Ruggero</nome>
+                                <cognome>Falaschi</cognome>
+                                <id_matricola>12491</id_matricola>
+                            </utente_studente>
+                        </alunno>
+                    </alunni>
+                </classe>
+                <classe id="4^CINF">
+                    <alunni>
+                        <alunno>
+                            <utente_studente>
+                                <nome>Emma</nome>
+                                <cognome>Speziali</cognome>
+                                <id_matricola>15895</id_matricola>
+                            </utente_studente>
+                        </alunno>
+                        <alunno>
+                            <utente_studente>
+                                <nome>Luca</nome>
+                                <cognome>Rozzo</cognome>
+                                <id_matricola>18459</id_matricola>
+                            </utente_studente>
+                        </alunno>
+                    </alunni>
+                </classe>
+            </classi>
+
+            <appello>
+                <appello_classi>
+                    <classe id="5^DINF">
+                        <alunni id="5">
+                            <alunno>
+                                <utente_studente>
+                                    <nome>Lucrezia</nome>
+                                    <cognome>Rainoldi</cognome>
+                                    <id_matricola>15491</id_matricola>
+                                    <giustifiche>0</giustifiche>
+                                    <presenza>presente</presenza>
+                                </utente_studente>
+                            </alunno>
+                            <alunno>
+                                <utente_studente>
+                                    <nome>Lorenzo</nome>
+                                    <cognome>Pula</cognome>
+                                    <id_matricola>15481</id_matricola>
+                                    <giustifiche>0</giustifiche>
+                                    <presenza>presente</presenza>
+                                </utente_studente>
+                            </alunno>
+                            <alunno>
+                                <utente_studente>
+                                    <nome>Paolo</nome>
+                                    <cognome>Cicioni</cognome>
+                                    <id_matricola>15391</id_matricola>
+                                    <giustifiche>87</giustifiche>
+                                    <presenza>assente</presenza>
+                                </utente_studente>
+                            </alunno>
+                            <alunno>
+                                <utente_studente>
+                                    <nome>Leonardo</nome>
+                                    <cognome>Maiorca</cognome>
+                                    <id_matricola>15492</id_matricola>
+                                    <giustifiche>154</giustifiche>
+                                    <presenza>assente</presenza>
+                                </utente_studente>
+                            </alunno>
+                            <alunno>
+                                <utente_studente>
+                                    <nome>Ruggero</nome>
+                                    <cognome>Falaschi</cognome>
+                                    <id_matricola>12491</id_matricola>
+                                    <giustifiche>15</giustifiche>
+                                    <presenza>presente</presenza>
+                                </utente_studente>
+                            </alunno>
+                        </alunni>
+                    </classe>
+                    <classe id="4^CINF">
+                        <alunni>
+                            <alunno>
+                                <utente_studente>
+                                    <nome>Emma</nome>
+                                    <cognome>Speziali</cognome>
+                                    <id_matricola>15895</id_matricola>
+                                    <giustifiche>5</giustifiche>
+                                    <presenza>presente</presenza>
+                                </utente_studente>
+                            </alunno>
+                            <alunno>
+                                <utente_studente>
+                                    <nome>Luca</nome>
+                                    <cognome>Rozzo</cognome>
+                                    <id_matricola>18459</id_matricola>
+                                    <giustifiche>0</giustifiche>
+                                    <presenza>presente</presenza>
+                                </utente_studente>
+                            </alunno>
+                        </alunni>
+                    </classe>
+                    <esito_classi>
+                        <classe id="5^DINF">effettuato</classe>
+                        <calsse id="4^CINF">effettuato</classe>
+                    </esito_classi>
+                </appello_classi>
+            </appello>
+            <colloqui></colloqui>
+            <consegne></consegne>
+            <inserimento_compiti></inserimento_compiti>
+            <inserimento_valutazioni></inserimento_valutazioni>
+            <scrutini></scrutini>
+            
+        </utente_professore>
+
+        <utente_professore>
+            <nome>Paolo</nome>
+            <cognome>Testi</cognome>
+            <classi>
+                <classe id="5^DINF">
+                    <alunni>
+                        <alunno>
+                            <utente_studente>
+                                <nome>Lucrezia</nome>
+                                <cognome>Rainoldi</cognome>
+                                <id_matricola>15491</id_matricola>
+                            </utente_studente>
+                        </alunno>
+                        <alunno>
+                            <utente_studente>
+                                <nome>Lorenzo</nome>
+                                <cognome>Pula</cognome>
+                                <id_matricola>15481</id_matricola>
+                            </utente_studente>
+                        </alunno>
+                    </alunni>
+                </classe>
+            </classi>
+            <appello></appello>
+            <colloqui>
+                <classi>
+                    <classe id="5^DINF">
+                        <utente_genitore>
+                            <nome>Silvia</nome>
+                            <cognome>Trinari</cognome>
+                            <figlio>
+                                <nome>Lucrezia</nome>
+                                <cognome>Rainoldi</cognome>
+                                <classe>5^DINF</classe>
+                            </figlio>
+                            <materia_richiesta>
+                                <professore>
+                                    <nome>Paolo</nome>
+                                    <cognome>Testi</cognome>
+                                    <link>
+                                        <youtube class="com"></youtube>
+                                    </link>
+                                    <materia>Sistemi e Reti</materia>
+                                </professore>
+                            </materia_richiesta>
+                        </utente_genitore>
+                    </classe>
+                    <classe id="4^CINF">
+                        
+                    </classe>
+                </classi>
+            </colloqui>
+            <consegne>
+                <creazione>
+                    <descrizione>Creare un file .XML dal lavoro di gruppo</descrizione>
+                    <data_inizio>11/01/2024</data_inizio>
+                    <data_fine>18/01/2024</data_fine>
+                    <n_max_file>5</n_max_file>
+                    <peso_max_file>20MG</peso_max_file>
+                </creazione>
+                <classi>
+                    <classe id="5^DINF">
+                        <alunno>
+                            <utente_studente>
+                                <nome>Lucrezia</nome>
+                                <cognome>Rainoldi</cognome>
+                                <id_matricola>15491</id_matricola>
+                                <consegne>effettuate</consegne>
+                            </utente_studente>
+                        </alunno>
+                        <alunno>
+                            <utente_studente>
+                                <nome>Lorenzo</nome>
+                                <cognome>Pula</cognome>
+                                <id_matricola>15481</id_matricola>
+                                <consegne>effettuate</consegne>
+                            </utente_studente>
+                        </alunno>
+                        <alunno>
+                            <utente_studente>
+                                <nome>Paolo</nome>
+                                <cognome>Cicioni</cognome>
+                                <id_matricola>15391</id_matricola>
+                                <consegne>effettuate</consegne>
+                            </utente_studente>
+                        </alunno>
+                        <alunno>
+                            <utente_studente>
+                                <nome>Leonardo</nome>
+                                <cognome>Maiorca</cognome>
+                                <id_matricola>15492</id_matricola>
+                                <consegne>errore</consegne>
+                            </utente_studente>
+                        </alunno>
+                        <alunno>
+                            <utente_studente>
+                                <nome>Ruggero</nome>
+                                <cognome>Falaschi</cognome>
+                                <id_matricola>12491</id_matricola>
+                                <consegne>effettuate</consegne>
+                            </utente_studente>
+                        </alunno>
+                    </alunni>
+                    </classe>
+                    <calsse id="4^CINF">
+                    
+                    </classe>
+                </classi>
+            </consegne>
+            <inserimento_compiti>
+                <classi>
+                    <classe id="5^DINF">
+                        <descrizione>Esercizio su Cisco Packet Tracer sulle VLAN</descrizione>
+                        <data_inserimento>10/01/2024</data_inserimento>
+                        <data_per_finire>12/01/2024</data_per_finire>
+                    </classe>
+                    <classe id="4^CINF">
+                        <descrizione>Esercizio su Cisco Packet Tracer: ricreare la prorpia rete casalinga</descrizione>
+                        <data_inserimento>8/01/2024</data_inserimento>
+                        <data_per_finire>22/01/2024</data_per_finire>
+                    </classe>
+                </classi>
+            </inserimento_compiti>
+            <inserimento_valutazioni>
+                <voto>
+                    <classi>
+                        <classe id="5^DINF">
+                            <alunni id="5">
+                                <alunno>
+                                    <utente_studente>
+                                        <nome>Lucrezia</nome>
+                                        <cognome>Rainoldi</cognome>
+                                        <id_matricola>15491</id_matricola>
+                                        <voto_prof>7</voto_prof>
+                                        <data_inserimento>16/01/2024</data_inserimento>
+                                    </utente_studente>
+                                </alunno>
+                                <alunno>
+                                    <utente_studente>
+                                        <nome>Lorenzo</nome>
+                                        <cognome>Pula</cognome>
+                                        <id_matricola>15481</id_matricola>
+                                        <voto_prof>6</voto_prof>
+                                        <data_inserimento>16/01/2024</data_inserimento>
+                                    </utente_studente>
+                                </alunno>
+                                <alunno>
+                                    <utente_studente>
+                                        <nome>Paolo</nome>
+                                        <cognome>Cicioni</cognome>
+                                        <id_matricola>15391</id_matricola>
+                                        <voto_prof>8</voto_prof>
+                                        <data_inserimento>18/01/2024</data_inserimento>
+                                    </utente_studente>
+                                </alunno>
+                                <alunno>
+                                    <utente_studente>
+                                        <nome>Leonardo</nome>
+                                        <cognome>Maiorca</cognome>
+                                        <id_matricola>15492</id_matricola>
+                                        <voto_prof>5</voto_prof>
+                                        <data_inserimento>16/01/2024</data_inserimento>
+                                    </utente_studente>
+                                </alunno>
+                                <alunno>
+                                    <utente_studente>
+                                        <nome>Ruggero</nome>
+                                        <cognome>Falaschi</cognome>
+                                        <id_matricola>12491</id_matricola>
+                                        <voto_prof>6</voto_prof>
+                                        <data_inserimento>18/01/2024</data_inserimento>
+                                    </utente_studente>
+                                </alunno>
+                            </alunni>
+                        </classe>
+                        <classe id="4^CINF">
+                            <alunni>
+                                <alunno>
+                                    <utente_studente>
+                                        <nome>Emma</nome>
+                                        <cognome>Speziali</cognome>
+                                        <id_matricola>15895</id_matricola>
+                                        <voto_prof>7</voto_prof>
+                                        <data_inserimento>6/01/2024</data_inserimento>
+                                    </utente_studente>
+                                </alunno>
+                                <alunno>
+                                    <utente_studente>
+                                        <nome>Luca</nome>
+                                        <cognome>Rozzo</cognome>
+                                        <id_matricola>18459</id_matricola>
+                                        <voto_prof>4</voto_prof>
+                                        <data_inserimento>16/02/2024</data_inserimento>
+                                    </utente_studente>
+                                </alunno>
+                            </alunni>
+                        </classe>
+                    </classi>
+                </voto>
+            </inserimento_valutazioni>
+            <scrutini>
+                <classi>
+                    <classe id="5^DINF">
+                        <data>14/03/2024</data>
+                        <ora>15:30</ora>
+                    </classe>
+                    <classe id="4^DINF">
+                        <data>8/03/2024</data>
+                        <ora>17:30</ora>
+                    </classe>
+                </classi>
+            </scrutini>
+            
+        </utente_professore>
+    </docenti>
+
+        
+</registro_elettronico>
+
+
+
+<!--utente_genitore>
+    <nome>Silvia</nome>
+    <cognome>Trinari</cognome>
+    <figlio>
+        <nome>Lucrezia</nome>
+        <cognome>Rainoldi</cognome>
+        <classe>5^DINF</classe>
+    </figlio>
+
+    <colloqui></collooqui>
+    <giustifiche></giustifiche>
+</utente_genitore>
+
+<utente_studente>
+    <nome>Lucrezia</nome>
+    <cognome>Rainoldi</cognome>
+    <id_matricola>15491</id_matricola>
+
+    <giustifiche></giustifiche>
+    <consegne></consegne>
+</utente_studente>
+
+<utente_professore>
+    <nome>Andrea</nome>
+    <cognome>Capobianco</cognome>
+    <classi>
+        <classe id="5^DINF"></classe>
+        <classe id="4^CINF"></classe>
+    </classi>
+
+    <appello></appello>
+    <colloqui></colloqui>
+    <consegne></consegne>
+    <inserimento_compiti></inserimento_compiti>
+    <inserimento_valutazioni></inserimento_valutazioni>
+    <scrutini></scrutini>
+</utente_professore-->

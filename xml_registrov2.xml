@@ -1,11 +1,138 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <registro_elettronico>
-    <professori></professori>
-    <studenti></studenti>
-    <classi></classi>
-    <compiti></compiti>
-    <appello></appello>
+
+    <registrazione>
+        <admin>
+            <utenti>
+                <utente_genitore>
+                    <nome></nome>
+                    <cognome></cognome>
+                    <figlio>
+                        <nome></nome>
+                        <cognome></cognome>
+                        <classe></classe>
+                    </figlio>
+                </utente_genitore>
+                <utente_professore>
+                    <nome></nome>
+                    <cognome></cognome>
+                    <classi>
+                        <classe></classe>
+                        <classe></classe>
+                    </classi>
+                </utente_professore>
+                <utente_studente>
+                    <nome></nome>
+                    <cognome></cognome>
+                    <classe></classe>
+                </utente_studente>
+            </utenti>
+        </admin>
+
+    </registrazione>
     
+    <appello>
+        <utente_professore>
+            <nome></nome>
+            <cognome></cognome>
+            <classi>
+                <classe id="5^DINF">
+                    <alunni id="5">
+                        <alunno>
+                            <utente_studente>
+                                <nome>Lucrezia</nome>
+                                <cognome>Rainoldi</cognome>
+                                <id_matricola>15491</id_matricola>
+                                <giustifiche>0</giustifiche>
+                                <presenza>presente</presenza>
+                            </utente_studente>
+                        </alunno>
+                        <alunno>
+                            <utente_studente>
+                                <nome>Lorenzo</nome>
+                                <cognome>Pula</cognome>
+                                <id_matricola>15481</id_matricola>
+                                <giustifiche>0</giustifiche>
+                                <presenza>presente</presenza>
+                            </utente_studente>
+                        </alunno>
+                        <alunno>
+                            <utente_studente>
+                                <nome>Paolo</nome>
+                                <cognome>Cicioni</cognome>
+                                <id_matricola>15391</id_matricola>
+                                <giustifiche>87</giustifiche>
+                                <presenza>assente</presenza>
+                            </utente_studente>
+                        </alunno>
+                        <alunno>
+                            <utente_studente>
+                                <nome>Leonardo</nome>
+                                <cognome>Maiorca</cognome>
+                                <id_matricola>15492</id_matricola>
+                                <giustifiche>154</giustifiche>
+                                <presenza>assente</presenza>
+                            </utente_studente>
+                        </alunno>
+                        <alunno>
+                            <utente_studente>
+                                <nome>Ruggero</nome>
+                                <cognome>Falaschi</cognome>
+                                <id_matricola>12491</id_matricola>
+                                <giustifiche>15</giustifiche>
+                                <presenza>presente</presenza>
+                            </utente_studente>
+                        </alunno>
+                    </alunni>
+                </classe>
+                <classe id="4^CINF">
+                    <alunni>
+                        <alunno>
+                            <utente_studente>
+                                <nome>Emma</nome>
+                                <cognome>Speziali</cognome>
+                                <id_matricola>15895</id_matricola>
+                                <giustifiche>5</giustifiche>
+                                <presenza>presente</presenza>
+                            </utente_studente>
+                        </alunno>
+                        <alunno>
+                            <utente_studente>
+                                <nome>Luca</nome>
+                                <cognome>Rozzo</cognome>
+                                <id_matricola>18459</id_matricola>
+                                <giustifiche>0</giustifiche>
+                                <presenza>presente</presenza>
+                            </utente_studente>
+                        </alunno>
+                    </alunni>
+                </classe>
+                <esito_classi>
+                    <classe id="5^DINF">effettuato</classe>
+                    <calsse id="4^CINF">effettuato</classe>
+                </esito_classi>
+            </classi>
+        </utente_professore>
+    </appello>
+
+    <circolare></circolare>
+
+    <colloqui></colloqui>
+
+    <consegne></consegne>
+
+    <giustifiche></giustifiche>
+
+    <compiti></compiti>
+
+    <voti></voti>
+
+    <media></media>
+
+    <scrutini></scrutini>
+    
+    
+
 
 </registro_elettronico>

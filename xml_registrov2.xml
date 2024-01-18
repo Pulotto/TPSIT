@@ -208,7 +208,75 @@
     </consegne>
 
     <giustifiche>
-
+        <utente_professore>
+            <classi>
+                <classe id="5^DINF">
+                    <alunni id="5">
+                        <alunno>
+                            <utente_studente>
+                                <nome>Lucrezia</nome>
+                                <cognome>Rainoldi</cognome>
+                                <id_matricola>15491</id_matricola>
+                                <giustifiche>0</giustifiche>
+                            </utente_studente>
+                        </alunno>
+                        <alunno>
+                            <utente_studente>
+                                <nome>Lorenzo</nome>
+                                <cognome>Pula</cognome>
+                                <id_matricola>15481</id_matricola>
+                                <giustifiche>0</giustifiche>
+                            </utente_studente>
+                        </alunno>
+                        <alunno>
+                            <utente_studente>
+                                <nome>Paolo</nome>
+                                <cognome>Cicioni</cognome>
+                                <id_matricola>15391</id_matricola>
+                                <giustifiche>87</giustifiche>
+                            </utente_studente>
+                        </alunno>
+                        <alunno>
+                            <utente_studente>
+                                <nome>Leonardo</nome>
+                                <cognome>Maiorca</cognome>
+                                <id_matricola>15492</id_matricola>
+                                <giustifiche>154</giustifiche>
+                            </utente_studente>
+                        </alunno>
+                        <alunno>
+                            <utente_studente>
+                                <nome>Ruggero</nome>
+                                <cognome>Falaschi</cognome>
+                                <id_matricola>12491</id_matricola>
+                                <giustifiche>15</giustifiche>
+                                <presenza>presente</presenza>
+                            </utente_studente>
+                        </alunno>
+                    </alunni>
+                </classe>
+                <classe id="4^CINF">
+                    <alunni>
+                        <alunno>
+                            <utente_studente>
+                                <nome>Emma</nome>
+                                <cognome>Speziali</cognome>
+                                <id_matricola>15895</id_matricola>
+                                <giustifiche>5</giustifiche>
+                            </utente_studente>
+                        </alunno>
+                        <alunno>
+                            <utente_studente>
+                                <nome>Luca</nome>
+                                <cognome>Rozzo</cognome>
+                                <id_matricola>18459</id_matricola>
+                                <giustifiche>0</giustifiche>
+                            </utente_studente>
+                        </alunno>
+                    </alunni>
+                </classe>
+            </classi>
+        </utente_professore>
     </giustifiche>
 
     <compiti>
